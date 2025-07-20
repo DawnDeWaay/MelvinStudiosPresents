@@ -7,6 +7,6 @@ Do it
 [Ren'Py Official](https://www.renpy.org/latest.html)
 
 ## Import Project
-Preferences > Projects directory > Add root dir
+Preferences > Projects directory > Add root dir > Home > Refresh
 
 ## Open in VSCode/Launch Project
