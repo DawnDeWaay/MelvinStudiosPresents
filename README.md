@@ -1,5 +1,8 @@
 # Melvin Studios: The Game
 
+## Install Python3
+[Python](https://www.python.org/downloads/)
+
 ## Clone Repository
 Do it
 
