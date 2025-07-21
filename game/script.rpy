@@ -3,31 +3,34 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define e = Character("Physics Philip", color="#FFFF00")
 
 
 # The game starts here.
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
-    scene bg room
+    scene bg mountain
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show tensegrity normal
 
-    # These display lines of dialogue.
+    e "You’re the only force I want acting on me today, baby"
 
-    e "You've created a new Ren'Py game."
+    menu:
+        "Philip asks you out to coffee, do you accept?"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+        "Take me Physics Philip":
+            "Yes"
 
-    # This ends the game.
+        "Nah Philip chopped asf":
+            "Nah"
+
+    label after_menu:
+
+     "After having my drink, I got on with my morning."
 
     return
